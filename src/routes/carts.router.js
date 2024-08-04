@@ -59,11 +59,12 @@ router.post("/:cid/product/:pid", (req, res) => {
 });
 
 
-//http://localhost:8080/api/carts/ --> post y get todos los carritos
-//http://localhost:8080/api/carts/1 --> ver carrito según id
-//http://localhost:8080/api/carts/1/product/id --> agrega el producto id al carrito 1
-
-
 
 
 export default router;
+
+
+
+//http://localhost:8080/api/carts/ --> post y get todos los carritos
+//http://localhost:8080/api/carts/1 --> ver carrito según id
+//http://localhost:8080/api/carts/1/product/id --> agrega el producto id al carrito 1

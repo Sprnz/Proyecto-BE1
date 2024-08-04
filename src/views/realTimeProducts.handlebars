@@ -1,0 +1,15 @@
+<div class="container" id="products-container">
+    {{#each productos}}
+    <div class="card" id="product-{{this.id}}">
+        <p>{{this.nombre}}</p>
+        <p>{{this.descripción}}</p>
+        <p>{{this.categoria}}</p>
+        <p>{{this.precio}}</p>
+        <p>{{this.stock}}</p>
+        <button>Comprar</button>
+    </div>
+    {{/each}}
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.7.2/socket.io.min.js"></script>
+<script src="/js/main.js"></script>
